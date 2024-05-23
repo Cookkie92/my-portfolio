@@ -7,21 +7,21 @@ const projects = [
   {
     title: 'Semester Project 2',
     description: 'A web application that manages tasks for a team.',
-    screenshot: 'path_to_screenshot_image',
+    screenshot: require('./assets/images/semester project 2.PNG'),
     repoLink: 'https://github.com/yourusername/semester-project-2',
     liveLink: 'link_to_live_site'
   },
   {
     title: 'JavaScript Frameworks CA',
     description: 'A comprehensive web application built with React.',
-    screenshot: 'path_to_screenshot_image',
+    screenshot: require('./assets/images/jsframeworkca.PNG'),
     repoLink: 'https://github.com/yourusername/javascript-frameworks-ca',
     liveLink: 'link_to_live_site'
   },
   {
     title: 'Project Exam 2',
     description: 'A detailed project showcasing advanced JavaScript techniques.',
-    screenshot: 'path_to_screenshot_image',
+    // screenshot: require('./assets/images/project-exam-2.PNG'),
     repoLink: 'https://github.com/yourusername/project-exam-2',
     liveLink: 'link_to_live_site'
   }
