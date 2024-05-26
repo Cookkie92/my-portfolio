@@ -1,0 +1,21 @@
+/* src/components/Footer.css */
+.footer {
+  width: 100%;
+  background-color: #282c34;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    width: 100vw; /* Full width of the viewport */
+    position: fixed; /* Ensure it spans the entire width */
+    bottom: 0; /* Align it to the bottom of the viewport */
+    left: 0; /* Align it to the left of the viewport */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  .footer p {
+    font-size: 0.8em;
+  }
+}

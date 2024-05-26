@@ -1,13 +1,15 @@
 // src/App.js
 import React from "react";
 import ProjectCard from "./components/ProjectCard";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import "./App.css";
 
 const projects = [
   {
     title: "Semester Project 2",
     description:
-      "A bidding website made using noroff api, here a user with noroff domain mail can register and login to post bids, and bid on others bids. user starts with 1000 points, but can earn more on their account when bids are complete. ",
+      "A bidding website made using noroff api, here a user with noroff domain mail can register and login to post bids, and bid on others bids. user starts with 1000 points, but can earn more on their account when bids are complete.",
     screenshot: require("./assets/images/semester project 2.PNG"),
     repoLink: "https://github.com/Cookkie92/Semester-Project-2",
     liveLink: "https://candid-marshmallow-290178.netlify.app/",
@@ -33,9 +35,7 @@ const projects = [
 const App = () => {
   return (
     <div className="App">
-      <header>
-        <h1>My Portfolio</h1>
-      </header>
+      <Header />
       <div className="project-container">
         {projects.map((project, index) => (
           <ProjectCard
@@ -48,9 +48,7 @@ const App = () => {
           />
         ))}
       </div>
-      <footer>
-        <p>&copy; 2024 Your Name</p>
-      </footer>
+      <Footer />
     </div>
   );
 };
